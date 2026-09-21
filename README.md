@@ -9,14 +9,13 @@ own. Nothing is shared with `omarchy-cllpse-theme-light`.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/cllpse/omarchy-cllpse-theme-%s
+omarchy theme install https://github.com/cllpse/omarchy-cllpse-theme-dark
 ```
 
 Omarchy derives the installed name by stripping a leading `omarchy-`, so this
-lands as **`cllpse-theme-%s`**, not the repo name.
+lands as **`cllpse-theme-dark`**, not the repo name.
 
-This theme is colours only — palette, shell surfaces, icon theme, Chromium
-frame, wallpapers. The macOS **window decoration** (rounding, borders, gaps,
+The macOS **window decoration** (rounding, borders, gaps,
 blur, window opacity, animations) is not here and cannot be: Omarchy stages no
 `.lua` from an installed theme, because it would execute in the compositor
 (`omarchy-theme-set:204`). That lives in
