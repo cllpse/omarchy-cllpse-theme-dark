@@ -1,7 +1,8 @@
 # omarchy-cllpse-theme-dark
 
 A macOS-style theme for [Omarchy](https://omarchy.org) 4. Palette read from
-macOS 27 (Tahoe) `NSColor` under the darkAqua appearance, converted to sRGB.
+macOS 27 (Tahoe) `NSColor` under the darkAqua appearance, converted to sRGB;
+the normal hue row is the aqua reading, the bright row the darkAqua one.
 
 Colours, shell surfaces, icon theme and wallpapers. Installs and works on its
 own. Nothing is shared with `omarchy-cllpse-theme-light`.
@@ -27,7 +28,7 @@ appends it to your own `~/.config/hypr/looknfeel.lua`.
 | file | what it does |
 |---|---|
 | `colors.toml` | the palette and `mode`; drives every generated config |
-| `shell.*.toml` | per-section shell surface overrides (opacity, spacing) |
+| `shell.*.toml` | per-section shell surface overrides (opacity, the menu's selected-row colour) |
 | `icons.theme` | the GTK icon theme name |
 | `chromium.theme` | Chromium's frame colour |
 | `backgrounds/` | wallpapers; the `00-` prefix pins the default |
