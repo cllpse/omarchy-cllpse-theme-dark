@@ -32,7 +32,7 @@ appends it to your own `~/.config/hypr/looknfeel.lua`.
 | `shell.*.toml` | per-section shell surface overrides (opacity, the menu's selected-row colour). `shell.launcher.toml` is read by nothing on Omarchy 4.0.4: its SUPER+SPACE is the menu plugin, styled by `shell.menu.toml`. Kept mirroring it in case Omarchy wires `[launcher]` up; its own comment has the detail |
 | `icons.theme` | the GTK icon theme name |
 | `chromium.theme` | Chromium's frame colour |
-| `backgrounds/` | wallpapers; the `00` prefix pins the default, `00_HongdaeiMac.webp`. `Instant_Fun_*_Negative.webp` are the light theme's two Instant Fun renders as plain RGB negatives (every channel `255 - x`), lossless; `*_Negative_Hue180.webp` are those negatives with the hue rotated 180°, which puts every original hue back with the lightness flipped |
+| `backgrounds/` | wallpapers; the `00` prefix makes `00_HongdaeiMac.webp` the default, which Omarchy 4.5 shows the first time the theme is set on a machine; after that it returns to the theme's last wallpaper. `Instant_Fun_*_Negative.webp` are the light theme's two Instant Fun renders as plain RGB negatives (every channel `255 - x`), lossless; `*_Negative_Hue180.webp` are those negatives with the hue rotated 180°, which puts every original hue back with the lightness flipped |
 | `colors.svg` | generated reference sheet, read by nothing |
 | `unlock.png`, `preview*.png` | Plymouth/SDDM art and the picker thumbnail |
 | `unlock.svg` | vector source of `unlock.png`, one rect per pixel; read by nothing, and it does not stay in sync |
